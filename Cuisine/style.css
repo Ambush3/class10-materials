@@ -22,29 +22,272 @@
 /*******************************************/
 
 body {
-
-}
-
-header {
   width: 100%;
-  height: 20px;
+  margin-left: 0px;
+  margin-top: -30px;
 }
 
-.navList {
-  float: left;
-  height: 20px;
+
+/******************************************
+/* NAVBAR
+/*******************************************/
+
+.navbar {
+  width: 100%;
+  height: 30px;
+  margin-left: 50%;
+  padding-top: 30px;
 }
 
-ul li {
+.navbar ul li {
+  float: left;
+  list-style: none;
+  margin-left: 31px;
+}
+
+.navbar ul:nth-child(1){
+  padding-left: 10px;
+}
+/******************************************
+/* Main
+/*******************************************/
+
+main {
+  width: 100%;
+  height: 700px;
+  background: url(/Cuisine/pexels-photo-349610.jpeg);
+  background-size: cover;
+  background-position-y: -200px;
+}
+
+h1 {
+  font-size: 80px;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  margin-top: 120px;
+}
+
+.searchBar {
+  width: 480px;
+  margin-left: 80px;
+}
+
+.main-section {
+  width: 50%;
+  
+}
+
+main ul li {
+  float: left;
+  list-style: none;
+  margin-left: 40px;
+}
+
+main button {
+  background: rgb(255, 145, 0);
+  border-radius: 10%;
+  padding: 3px;
+  width: 80px;
+  text-align: left;
+  color: white;
+  font-size: 12px;
+}
+
+
+/******************************************
+/* SECTION-1
+/*******************************************/
+
+.discover {
+  width: 100%;
+  height: 600px;
+  background: url(/Cuisine/cuisine-section.jpeg);
+  background-size: cover;
+}
+
+.discover-section {
+  width: 80%;
+  padding-left: 50%;
+  padding-top: 50px;
+}
+
+h2 {
+  margin-top: -2.5px;
+  font-size: 50px;
+}
+
+.discover-section span {
+  color:rgb(255, 145, 0);
+}
+
+p {
+  margin-top: -10px;
+}
+
+.discover button {
+  background: rgb(255, 145, 0);
+  color: white;
+  border-radius: 2%;
+  padding: 3px;
+  width: 110px;
+  text-align: left;
+  color: white;
+  font-size: 12px;
+}
+
+/******************************************
+/* SECTION-1
+/*******************************************/
+
+.order {
+  width: 100%;
+  height: 700px;
+  background: rgb(240, 238, 238);
+  padding-top: 50px;
+}
+
+.order span {
+  color:rgb(255, 145, 0)
+}
+
+.orderHeader {
+  text-align: center;
+}
+
+.orderHeader h2 {
+  font-size: 50px;
+}
+
+.orderList {
+  margin-left: 460px;
+  margin-top: -12px;
+}
+
+.orderList ul li {
+  float: left;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.orderImages {
+  width: 100%;
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.orderImages ul li {
+  float: left;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.orderImages img {
+  width: 300px;
+  height: 400px;
+}
+
+/******************************************
+/* OPENING HOURS
+/*******************************************/
+
+.openingHours {
+  width: 100%;
+  height: 900px;
+  padding-top: 60px;
+  background: rgb(243, 243, 243)
+}
+
+.hours {
+  text-align: center;
+}
+
+.hoursHeader span{
+  color:rgb(255, 145, 0);
+}
+
+.hoursHeader h3 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.callNow {
+  text-align: center;
+}
+
+.callNow h4 {
+  font-size: 20px;
+  color:rgb(255, 145, 0);
+}
+
+.schedule {
+  margin-left: 32.3333%;
+  margin-top: -30px;
+}
+
+.schedule h5 {
+  font-size: 14px;
+}
+
+.schedule h4 {
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.schedule1 {
   float: left;
 }
+
+.schedule2 {
+  float: left;
+  padding-left: 200px;
+}
+
+.openingImage img{
+  width: 1000px;
+  height: 500px;
+  margin-left: 225px;
+}
+
+/******************************************
+/*  CUSTOMERS
+/*******************************************/
+
+.customers {
+  width: 100%;
+  height: 800px;
+  padding-top: 0px;
+  background: rgb(243, 243, 243)
+}
+
+.customerHeader span {
+  color:rgb(255, 145, 0);
+  margin-left: 690px
+}
+
+.customerHeader h3 {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-left: 580px;
+  margin-bottom: 3px;
+}
+
+.JohnSmith {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.customerText {
+  width: 50%;
+  margin-left: 380px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
 
 footer {
 

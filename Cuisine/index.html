@@ -11,11 +11,11 @@
 
     <!-- external CSS link -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/Cuisine/style.css">
 </head>
 
 <body>
-    <header>
+    <main class="main">
         <nav class="navbar">
             <ul class="navList">
                 <li>Home</li>
@@ -28,25 +28,28 @@
                 <li><img src="#" alt="search-icon"></li>
             </ul>
         </nav>
-    </header>
-    <main class="main">
-        <h1>Welcome <br> To Our Cuisine <br> Restaurant </h1>
-        <input type="text" placeholder="Search here"><button>Location</button>
-        <ul>
-            <li><img src="#" alt="fb"></li>
-            <li><img src="#" alt="twitter"></li>
-            <li><img src="#" alt="instagram"></li>
-        </ul>
+        <section class="main-section">
+            <h1>Welcome <br> To Our Cuisine <br> Restaurant </h1>
+            <input class="searchBar" type="text" placeholder="Search here"><button>Location</button>
+            <ul>
+                <li><img src="#" alt="fb"></li>
+                <li><img src="#" alt="twitter"></li>
+                <li><img src="#" alt="instagram"></li>
+            </ul>
+        </section>
     </main>
 
     <section class="discover">
-        <span>About us</span>
-        <h2>Discover Our <br> Restaurant Story</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quidem id beatae laboriosam libero velit
-            repellendus praesentium ratione temporibus incidunt, aspernatur a minus? Quam pariatur at maiores corrupti
-            atque modi?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi et tempore dolor est alias</p>
-        <button>Discover Menu</button>
+        <section class="discover-section">
+            <span>About us</span>
+            <h2>Discover Our <br> Restaurant Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quidem id beatae laboriosam libero velit
+                repellendus praesentium ratione temporibus incidunt, aspernatur a minus? Quam pariatur at maiores
+                corrupti
+                atque modi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi et tempore dolor est alias</p>
+            <button>Discover Menu</button>
+        </section>
     </section>
 
     <section class="order">
@@ -63,11 +66,14 @@
                 <li>Shake</li>
             </ul>
         </section>
+
         <section class="orderImages">
-            <img src="#" alt="pasta">
-            <img src="#" alt="soup">
-            <img src="#" alt="fancy?">
-            <img src="#" alt="egg">
+            <ul>
+                <li class="img-1"><img src="/Cuisine/img-1.jpeg" alt="pasta"></li>
+                <li class="img-2"><img src="/Cuisine/img-2.jpeg" alt="soup"></li>
+                <li class="img-3"><img src="/Cuisine/food-3.jpeg" alt="fancy?"></li>
+                <li class="img-4"><img src="/Cuisine/img-4.jpeg" alt="egg"></li>
+            </ul>
         </section>
     </section>
 
@@ -84,16 +90,20 @@
             <span>Call Now</span>
             <h4>+12345 678 910</h4>
         </section>
-        <section class="schedule1">
-            <h5>Monday to Tuesday</h5>
-            <h4>09:00 am - 22:00 pm</h4>
+
+        <section class="schedule">
+            <section class="schedule1">
+                <h5>Monday to Tuesday</h5>
+                <h4>09:00 am - 22:00 pm</h4>
+            </section>
+            <section class="schedule2">
+                <h5>Friday to Sunday</h5>
+                <h4>11:00 am - 20:00 pm</h4>
+            </section>
         </section>
-        <section class="schedule2">
-            <h5>Friday to Sunday</h5>
-            <h4>11:00 am - 20:00 pm</h4>
-        </section>
+
         <section class="openingImage">
-            <img src="" alt="">
+            <img src="/Cuisine/opening-img.jpeg" alt="">
         </section>
     </section>
 
@@ -102,15 +112,16 @@
             <span>Testimonials</span>
             <h3>Customers Say</h3>
         </section>
-        <img src="#" alt="johnSmith">
-        <h4>Mr John Smith</h4>
-        <img src="#" alt="5-star">
+        <section class="JohnSmith">
+            <img src="#" alt="johnSmith">
+            <h4>Mr John Smith</h4>
+            <img src="#" alt="5-star">
+        </section>
         <section class="customerText">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iure ipsum, excepturi molestias voluptate
                 repudiandae dicta doloribus distinctio itaque fuga nobis mollitia laborum accusamus? Tempore ut est enim
                 harum tenetur?</p>
         </section>
-        <img src="#" alt="pageDots">
     </section>
 
     <script type="text/javascript" src="js/main.js"></script>
