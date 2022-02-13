@@ -37,6 +37,13 @@ body {
   height: 30px;
   margin-left: 50%;
   padding-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navList .fa-brands {
+  color: black;
+  font-size: larger;
 }
 
 .navbar ul li {
@@ -50,6 +57,11 @@ body {
 }
 
 .navbar ul li:hover {
+  color:rgb(255, 145, 0);
+  cursor: pointer;
+}
+
+.navList .fa-brands:hover {
   color:rgb(255, 145, 0);
   cursor: pointer;
 }
@@ -98,7 +110,6 @@ h1 {
 .main-section span {
   font-size: 18px;
 }
-
 
 
 .fa-brands {
