@@ -63,7 +63,7 @@ main {
 h1 {
   font-size: 80px;
   padding-left: 80px;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
   margin-top: 120px;
 }
 
@@ -74,13 +74,17 @@ h1 {
 
 .main-section {
   width: 50%;
-  
+  font-family: 'Spectral', serif;
+  line-height: 100px;
 }
 
 main ul li {
   float: left;
   list-style: none;
   margin-left: 40px;
+  font-size: 16px;
+  font-family: 'Spectral', serif;
+  margin-top: -50px;
 }
 
 main button {
@@ -103,17 +107,20 @@ main button {
   height: 600px;
   background: url(/Cuisine/cuisine-section.jpeg);
   background-size: cover;
+  font-family: 'Spectral', serif;
 }
 
 .discover-section {
-  width: 80%;
-  padding-left: 50%;
+  width: 90%;
+  padding-left: 55%;
   padding-top: 50px;
 }
 
 h2 {
   margin-top: -2.5px;
   font-size: 50px;
+  font-family: 'Spectral', serif;
+  line-height: 60px;
 }
 
 .discover-section span {
@@ -136,7 +143,7 @@ p {
 }
 
 /******************************************
-/* SECTION-1
+/* SECTION-2
 /*******************************************/
 
 .order {
@@ -144,6 +151,7 @@ p {
   height: 700px;
   background: rgb(240, 238, 238);
   padding-top: 50px;
+  font-family: 'Spectral', serif;
 }
 
 .order span {
@@ -194,11 +202,13 @@ p {
   width: 100%;
   height: 900px;
   padding-top: 60px;
-  background: rgb(243, 243, 243)
+  background: rgb(243, 243, 243);
+  font-family: 'Spectral', serif;
 }
 
 .hours {
   text-align: center;
+  line-height: 30px;font-family: 'Spectral', serif;
 }
 
 .hoursHeader span{
@@ -212,6 +222,7 @@ p {
 
 .callNow {
   text-align: center;
+  line-height: 20px;
 }
 
 .callNow h4 {
@@ -256,7 +267,8 @@ p {
   width: 100%;
   height: 800px;
   padding-top: 0px;
-  background: rgb(243, 243, 243)
+  background: rgb(243, 243, 243);
+  font-family: 'Spectral', serif;
 }
 
 .customerHeader span {
@@ -266,9 +278,9 @@ p {
 
 .customerHeader h3 {
   font-size: 50px;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-left: 580px;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .JohnSmith {
