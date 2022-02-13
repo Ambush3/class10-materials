@@ -278,8 +278,16 @@ p {
   line-height: 30px;font-family: 'Spectral', serif;
 }
 
-.hoursHeader span{
+.hoursHeader span {
   color:rgb(255, 145, 0);
+  font-size: 28px;
+  padding-left: 16px;
+}
+
+.hoursHeader span:hover {
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .hoursHeader h3 {
@@ -292,18 +300,23 @@ p {
   line-height: 20px;
 }
 
+.callNow:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .callNow h4 {
   font-size: 20px;
   color:rgb(255, 145, 0);
 }
 
 .schedule {
-  margin-left: 32.3333%;
+  margin-left: 30%;
   margin-top: -30px;
 }
 
 .schedule h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .schedule h4 {
@@ -313,11 +326,13 @@ p {
 
 .schedule1 {
   float: left;
+  text-align: center;
 }
 
 .schedule2 {
   float: left;
   padding-left: 200px;
+  text-align: center;
 }
 
 .openingImage img{
@@ -388,27 +403,23 @@ p {
   padding-top: 0px;
   background: rgb(243, 243, 243);
   font-family: 'Spectral', serif;
+  text-align: center;
 }
 
 .customerHeader span {
   color:rgb(255, 145, 0);
-  margin-left: 690px
+  font-size: 30px;
 }
 
 .customerHeader h3 {
   font-size: 50px;
   margin-top: 1px;
-  margin-left: 580px;
   margin-bottom: 2px;
 }
 
 .JohnSmith {
-  margin-left: 30px;
   text-align: center;
-}
-
-.JohnSmith img {
-  padding-top: 30px;
+  margin-top: 20px;
 }
 
 .customerText {
