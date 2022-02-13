@@ -276,6 +276,10 @@ p {
   text-align: center;
 }
 
+.JohnSmith img {
+  padding-top: 30px;
+}
+
 .customerText {
   width: 50%;
   margin-left: 380px;
@@ -283,6 +287,9 @@ p {
   text-align: center;
 }
 
+.JohnSmith h4 {
+  font-size: 20px;
+}
 
 
 /******************************************
