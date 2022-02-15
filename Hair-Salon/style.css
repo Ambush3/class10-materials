@@ -1,0 +1,404 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* NAV
+/*******************************************/
+
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+.navBar ul li{
+  float: left;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+li span {
+  margin-right: 400px;
+}
+
+.list {
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+.bookOnline {
+  margin-left: 170px;
+}
+
+.navList span {
+  font-size: 30px;
+  font-family: 'Arizonia', cursive;
+  
+}
+/******************************************
+/* MAIN
+/*******************************************/
+
+main {
+  height: 900px;
+  width: 100%;
+  background: rgb(197, 243, 250);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: 
+    url(/Hair-Salon/salon-girl.jpg);
+}
+
+.blonde {
+  width: 60%;
+  height: 300px;
+  margin-left: 15%;
+}
+
+.blonde h1 {
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke: 1px rgb(165, 165, 165); /* width and color */
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.blonde p {
+  font-size: 22px;
+  color: rgb(2, 2, 2);
+}
+
+.blonde button {
+  color: white;
+  font-size: 13px;
+  background: black;
+  padding: 13px;
+  border: 1px solid white;
+}
+
+.coupon {
+  width: 17%;
+  height: 340px;
+  border: 1px solid white;
+  background: black;
+  margin-left: 15%;
+  margin-top: 100px;
+  color: white;
+  line-height: 40px;
+}
+
+.coupon aside {
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: left;
+}
+
+aside .twenty {
+  font-size: 40px;
+}
+
+.first-p {
+  margin-left: -20px;
+}
+
+.coupon span{ 
+  padding-left: 20px;
+}
+
+.coupon p {
+  padding-left: 20px;
+}
+
+.coupon button {
+  margin-left: 20px;
+  padding: 18px;
+  text-align: center;
+  background: white;
+  font-size: 15px;
+  width: 60%;
+  border: 0;
+}
+
+
+/******************************************
+/* SECTION-1
+/*******************************************/
+
+.services {
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+  line-height: 22px;
+}
+
+
+.services h5 {
+  font-size: 18px;
+}
+
+.beauticians {
+  width: 20%;
+  float: left;
+  margin-left: 20%;
+  margin-top: 60px;
+}
+
+.quality {
+  width: 20%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.products {
+  width: 20%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+
+/******************************************
+/* SECTION MOMENTUM
+/*******************************************/
+
+.momentum {
+  width: 100%;
+  height: 420px;
+  margin-top: 80px;
+  background: rgb(243, 244, 246);
+}
+
+.momentum-text {
+  width: 25%;
+  margin-left: 20%;
+  padding-top: 20px;
+}
+
+.video {
+  width: 30%;
+  float: right;
+  margin-top: -300px;
+  margin-right: 240px;
+}
+
+.momentum-text h3 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: -0px;
+}
+
+.momentum-text button {
+  padding: 18px;
+  text-align: center;
+  background: black;
+  font-size: 15px;
+  width: 50%;
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+
+
+/******************************************
+/* SECTION IMAGES
+/*******************************************/
+
+.full-girls-container {
+  padding: 4rem 0;
+}
+
+.girls-images {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.single-girl {
+  float: left;
+  width: 30%;
+  margin-left: 3.3%;
+}
+
+.single-girl img {
+  width: 80%;
+}
+
+.single-girl div h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.single-girl div {
+  background: black;
+  color: white;
+  padding: 0.5rem 4rem;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  left: 2px;
+}
+
+
+/******************************************
+/* SECTION OFFER
+/*******************************************/
+
+
+.offer {
+  width: 100%;
+}
+
+.offer img {
+  position: absolute;
+  width: 46%;
+  height: 350px;
+  margin-left: 26%;
+  margin-top: 4rem 0;
+}
+
+
+.offer-section {
+  position: relative;
+  margin-left: 30%;
+  padding-top: 30px;
+  
+}
+
+.offer-section h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.offer-section p {
+  font-size: 30px;
+}
+
+
+.offer-section p span {
+  font-size: 50px;
+}
+
+.offer-section button {
+  padding: 18px;
+  text-align: center;
+  background: black;
+  font-size: 15px;
+  width: 20%;
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+
+/******************************************
+/* SECTION LOOKBOOK
+/*******************************************/
+
+.lookbook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.lookbook-header h4{
+  font-size: 50px;
+  margin-top: 150px;
+  margin-bottom: -50px;
+  font-weight: bold;
+  display: block;
+  font-weight: 300;
+}
+
+.lookbook-images {
+  display: grid;
+  grid-template-columns: repeat(3, 17rem);
+  grid-template-rows: repeat(3, 12rem);
+  grid-gap: 2rem 2rem;
+  grid-template-areas:
+  'photo1 photo2 photo3'
+  'photo4 photo2 photo6'
+  'photo4 photo5 photo6';
+  padding: 5rem;
+}
+
+.lookbook-images-photos1 {
+  background-image: url(/Hair-Salon/model-1.jpeg);
+  grid-area: photo1;
+  justify-self: stretch;
+  background-position: top center;
+  background-size: cover;
+}
+
+.lookbook-images-photos2 {
+  background-image: url(/Hair-Salon/model-2.jpeg);
+  grid-area: photo2;
+  background-position: top center;
+  background-size: cover;
+}
+
+.lookbook-images-photos3 {
+  background-image: url(/Hair-Salon/model-3.jpeg);
+  grid-area: photo3;
+  background-position: top center;
+  background-size: cover;
+}
+
+.lookbook-images-photos4 {
+  background-image: url(/Hair-Salon/model-4.jpeg);
+  grid-area: photo4;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lookbook-images-photos5 {
+  background-image: url(/Hair-Salon/model-5.jpeg);
+  grid-area: photo5;
+  background-position: top center;
+  background-size: cover;
+}
+
+.lookbook-images-photos6 {
+  background-image: url(/Hair-Salon/model-7.jpeg);
+  grid-area: photo6;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
