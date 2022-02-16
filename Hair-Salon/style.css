@@ -22,7 +22,8 @@
 /*******************************************/
 
 body {
-
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -397,8 +398,172 @@ aside .twenty {
   background-size: cover;
 }
 
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  left: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media screen and (max-width: 600px) {
+
+  html,body{
+    overflow-x: hidden;
+}
+
+  .list {
+    display: none;
+    width: 100%;
+  }
+
+  .navBar {
+    width: 100%;
+  }
+
+  .bookOnline {
+    display: none;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navList span {
+    margin-left: 4rem;
+  }
+
+  main {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .blonde h1{
+    font-size: 40px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .coupon {
+    width: 60%;
+    height: 300px;
+  }
+  
+  .coupon aside {
+    font-size: 12px;
+  }
+  
+  .services {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services h5 {
+    font-size: 10px;
+  }
+
+  .services p {
+    display: none;
+  }
+
+  .beauticians {
+    margin-left: 25px;
+  }
+
+  .momentum {
+    width: 100%;
+  }
+
+  .momentum h3 {
+    width: 500%;
+    font-size: 20px;
+  }
+
+  .momentum p {
+    font-size: 15px;
+    width: 200%;
+  }
+
+  .momentum button {
+    width: 190%;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .girl-1 {
+    width: 100%;
+  }
+
+  .girl-1 div {
+    width: 79%;
+  }
+
+  .girl-2 {
+    width: 100%;
+  }
+
+  .girl-2 div {
+    width: 79%;
+  }
+
+  .girl-3 {
+    width: 100%;
+  }
+
+  .girl-3 div {
+    width: 79%;
+  }
+
+  .offer {
+    width: 100%;
+  }
+
+  .offer img {
+    margin-left: 20px;
+    width: 75%;
+  }
+
+  .offer-section {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .offer-section h5 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-right: 50px;
+  }
+
+  .offer-section p {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .offer-section button {
+    width: 70%;
+    margin-right: 55px;
+    margin-top: 60px;
+  }
+  
+  .lookbook {
+    display: none
+  }
+}
